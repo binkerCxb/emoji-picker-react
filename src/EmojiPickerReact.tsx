@@ -16,9 +16,9 @@ export default function EmojiPicker(props: Props) {
     <ElementRefContextProvider>
       <PickerConfigProvider {...props}>
         <PickerMain>
-          <Header />
+          {/*<Header />*/}
           <Body />
-          <Preview />
+          {/*<Preview />*/}
         </PickerMain>
       </PickerConfigProvider>
     </ElementRefContextProvider>
